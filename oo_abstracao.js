@@ -12,10 +12,10 @@ class ContaBancaria {
 
     }
 
-    sacar(valorSaque){
+    sacar(valorSaque) {
         this.saldo -= valorSaque
     }
-    
+
     consultarSaldo() {
         return this.saldo
     }

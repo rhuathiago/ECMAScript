@@ -11,11 +11,11 @@ console.log(resto)
 
 //objetos
 
-let obj = { 
-    a: 10, b: 20, c:30, d:40
+let obj = {
+    a: 10, b: 20, c: 30, d: 40
 }
 
-let { a, ...z} = obj
+let { a, ...z } = obj
 
 console.log(a)
 console.log(z)

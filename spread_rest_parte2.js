@@ -1,4 +1,4 @@
-function soma(...param){
+function soma(...param) {
     let resultado = 0
 
     console.log(param)
@@ -16,7 +16,7 @@ function multiplicacao(m, ...p) {
     console.log(`p é igual a ${p}`)
 
     p.forEach(v => resultado += m * v)
-    
+
     return resultado
 }
 

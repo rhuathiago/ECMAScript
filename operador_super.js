@@ -33,7 +33,7 @@ class Papagaio extends Passaro {
   }
 }
 
-let passaro = new Passaro('curto','verde', 50, 600)
+let passaro = new Passaro('curto', 'verde', 50, 600)
 let papagaio = new Papagaio(true, 'médio', 'verde', 40, 500)
 let papagaio2 = new Papagaio(false, 'curto', 'azul', 30, 250)
 

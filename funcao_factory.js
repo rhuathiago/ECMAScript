@@ -1,18 +1,18 @@
 let Bicicleta1 = {
     cor: 'Branca',
     marcha: 'única',
-    aro:12,
-    pedalar() {console.log('Método pedalar executado')}
+    aro: 12,
+    pedalar() { console.log('Método pedalar executado') }
 }
 console.log(Bicicleta1)
 
-let BicicletaFactory = function(cor, marcha, aro) {
+let BicicletaFactory = function (cor, marcha, aro) {
     return {
         cor,
         marcha,
         aro,
         tipoPedal,
-        pedalar() {console.log('Método pedalar executado')}
+        pedalar() { console.log('Método pedalar executado') }
     }
 }
 

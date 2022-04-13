@@ -1,23 +1,23 @@
-let Carro = function() {
+let Carro = function () {
     this.cor = 'Amarelo'
     this.modelo = 'Chevette'
     this.velocidadeAtual = 0
     this.velocidadeMaxima = 180
 
-    this.acelerar = function() {
+    this.acelerar = function () {
         let velocidade = this.getVelocidadeAtual() + 50
-        if(velocidade > this.velocidadeMaxima){
+        if (velocidade > this.velocidadeMaxima) {
             velocidade = this.velocidadeMaxima
         }
         this.setVelocidadeAtual(velocidade)
     }
-    this.getVelocidadeAtual = function() {
+    this.getVelocidadeAtual = function () {
         return this.velocidadeAtual
-    } 
-    this.setVelocidadeAtual = function(velocidadeAtual) {
+    }
+    this.setVelocidadeAtual = function (velocidadeAtual) {
         this.velocidadeAtual = velocidadeAtual
     }
-    
+
 }
 let carro = new Carro()
 
@@ -37,7 +37,7 @@ carro.acelerar()
 
 
 
-let Carro2 = function() {
+let Carro2 = function () {
 
     const velocidadeMaxima = 180
     let quilometrosRodados = 0
@@ -46,9 +46,9 @@ let Carro2 = function() {
     this.modelo = 'Chevette'
     this.velocidadeAtual = 0
 
-    this.acelerar = function() {
+    this.acelerar = function () {
         let velocidade = this.getVelocidadeAtual() + 50
-        if(velocidade > velocidadeMaxima){
+        if (velocidade > velocidadeMaxima) {
             velocidade = velocidadeMaxima
         }
         this.setVelocidadeAtual(velocidade)
@@ -56,18 +56,18 @@ let Carro2 = function() {
         setQuilometrosRodados(0.07)
         console.log(quilometrosRodados)
     }
-    this.getVelocidadeAtual = function() {
+    this.getVelocidadeAtual = function () {
         return this.velocidadeAtual
-    } 
-    this.setVelocidadeAtual = function(velocidadeAtual) {
+    }
+    this.setVelocidadeAtual = function (velocidadeAtual) {
         this.velocidadeAtual = velocidadeAtual
     }
 
-    let setQuilometrosRodados = function(q) {
+    let setQuilometrosRodados = function (q) {
         quilometrosRodados += q
-        
+
     }
-    
+
 }
 let carro2 = new Carro2()
 

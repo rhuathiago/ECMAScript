@@ -1,6 +1,6 @@
 let arr = [10, 20, 30, 40]
 
-function teste1([ a, b, , c, d = 100 ]) {
+function teste1([a, b, , c, d = 100]) {
     console.log(a, b, c, d)
 }
 teste1(arr)
@@ -12,7 +12,7 @@ let obj = {
     d: 40
 }
 
-function teste ({ a:x, d, z = 10}){
+function teste({ a: x, d, z = 10 }) {
     console.log(x, d, z)
 }
 
